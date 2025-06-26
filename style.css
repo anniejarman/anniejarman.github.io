@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #F5FFFA;         /* Mint green background */
+  color: #01796F;                    /* Pine green text */
+  font-family: 'EB Garamond', serif;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+  padding-top: 60px;
+  text-align: center;
+  font-size: 1.3rem;
+}
+
+
+/*
+.container {
+  max-width: 700px;
+  width: 100%;
+  text-align: center; 
+}
+*/
+
+.container {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 20px;
+  width: 90%;            /* Make it shrink on small screens */
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.header {
+  margin-bottom: 40px;
+}
+
+/* Buttons */
+.nav-buttons {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.nav-buttons a {
+  text-decoration: none;
+  color: black;
+/*  border: 1px solid #01796F; */
+  border: 1px solid black; 
+  padding: 8px 16px;
+  font-size: 1rem;
+  border-radius: 4px;
+  transition: background-color 0.2s, color 0.2s;
+}
+/*
+.profile-image {
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+*/
+
+.profile-image {
+  width: 100%;
+  max-width: 600px;
+  aspect-ratio: 1 / 1;     /* ⬅️ Force 1:1 ratio */
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto 20px auto;
+}
+
+
+
+.nav-buttons a:hover {
+  background-color: black;
+  color: white;
+}
+
+
+/*
+.container {
+  max-width: 700px;
+  width: 100%;
+  text-align: center; 
+}
+*/
+
+.section-divider {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: 40px 0;
+}
+
+.section-divider::before,
+.section-divider::after {
+  content: "";
+  flex: 1;
+  border-bottom: 1px solid #ccc;
+}
+
+.section-divider:not(:empty)::before {
+  margin-right: 20px;
+}
+
+.section-divider:not(:empty)::after {
+  margin-left: 20px;
+}
+
+.section-divider span {
+  font-size: 1.5rem;
+  font-weight: bold;
+  white-space: nowrap;
+}
+
