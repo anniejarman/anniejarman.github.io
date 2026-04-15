@@ -73,7 +73,7 @@ body {
 
 .profile-image {
   width: 100%;
-  max-width: 400px;
+  max-width: 300px;
   aspect-ratio: 1 / 1;     /* ⬅️ Force 1:1 ratio */
   border-radius: 50%;
   object-fit: cover;
