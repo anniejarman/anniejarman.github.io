@@ -7,14 +7,14 @@
 body {
   background-color: #F5FFFA;         /* Mint green background */
   color: #01796F;                    /* Pine green text */
-  font-family: 'EB Garamond', serif;
+  font-family: 'Times New Roman', serif;
   display: flex;
   justify-content: center;
   align-items: flex-start;
   min-height: 100vh;
   padding-top: 60px;
   text-align: center;
-  font-size: 1.3rem;
+  font-size: 1.0 rem;
 }
 
 
@@ -73,7 +73,7 @@ body {
 
 .profile-image {
   width: 100%;
-  max-width: 600px;
+  max-width: 400px;
   aspect-ratio: 1 / 1;     /* ⬅️ Force 1:1 ratio */
   border-radius: 50%;
   object-fit: cover;
