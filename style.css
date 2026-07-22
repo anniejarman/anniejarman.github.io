@@ -40,9 +40,8 @@ body {
 
 .paper-container {
   max-width: 600px;
-  margin: 0 auto;
+  margin: 0 auto 4rem auto;
   text-align: left;
-  margin-bottom: 2.5rem;
 }
 
 
