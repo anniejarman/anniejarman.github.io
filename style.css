@@ -131,26 +131,37 @@ body {
 }
 
 .paper {
-  color: black;
-  text-align: left;
+
+    color: black;
+
+    text-align: left;
+
 }
 
 .citation {
-  margin: 0;
-  text-align: left;
+
+    margin: 0;
+
 }
 
 .awards {
-  list-style-position: inside;
-  margin: 0;
-  padding: 0;
-  text-align: left;
-  font-size: 0.8em;
+    margin: 0;
+    padding: 0;
+    font-size: 0.8em;
+    font-style: italic;
+    font-weight: 600;
+    color: #444;
+    margin-bottom: 6px;
+}
+
+.coauthors {
+    font-size: 0.8em;
+    color: #444;
+    margin-bottom: 8px;
 }
 
 .abstract {
-  font-size: 0.8em;
-  text-align: left;
+    font-size: 0.8em;
 }
 
 
